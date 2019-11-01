@@ -1,0 +1,802 @@
+body
+{
+	background-image: url("../Images/fond.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+p
+{
+	color: #FFFFFF;
+}
+
+.titreIndex
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.titre
+{
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: -3vw;
+}
+
+.sousTitre
+{
+	text-align: center;
+	margin-top: 1.5vw;
+	color: #FFFFFF;
+	font-size: 1.25vw;
+}
+
+.allDiv
+{
+	width: 100%;
+}
+
+.buttonAspect:link
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.buttonAspect:visited
+{
+	color: #FFFFFF;
+}
+
+.divLongues
+{
+	width: 100%;
+}
+
+.longues
+{
+	width: 33.33%;
+	float: left;
+}
+
+.divUniques
+{
+	width: 100%;
+}
+
+.uniques
+{
+	width: 100%;
+	float: left;
+}
+
+#meDecouvrir
+{
+	height: 10vw;
+	width: 40%;
+	padding-top: 4vw;
+	/*padding-left: 16vw;*/
+	margin-left: 20vw;
+	margin-top: 1vw;
+	float: left;
+	box-shadow: 1px 1px 5px #000000;
+	text-shadow: 2px 2px 5px #000000;
+	background-color: #FF9430;
+	opacity: 0.75;
+	display: block;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+#meDecouvrir:hover
+{
+	background-color: #FF9430;
+	opacity: 1;
+	box-shadow: 1px 1px 15px;
+}
+
+#meDecouvrir:active
+{
+	box-shadow: 1px 1px 5px #000000 inset;
+}
+
+#mesProgs
+{
+	height: 10vw;
+	width: 40%;
+	padding-top: 4vw;
+	/*padding-left: 15.5vw;*/
+	margin-left: 20vw;
+	margin-top: 5vw;
+	float: left;
+	box-shadow: 1px 1px 5px #000000;
+	text-shadow: 2px 2px 5px #000000;
+	background-color: #FF9430;
+	opacity: 0.75;
+	display: block;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+#mesProgs:hover
+{
+	background-color: #FF9430;
+	opacity: 1;
+	box-shadow: 1px 1px 15px;
+}
+
+#mesProgs:active
+{
+	box-shadow: 1px 1px 5px #000000 inset;
+}
+
+#monMemento
+{
+	height: 25vw;
+	width: 10%;
+	padding-top: 11vw;
+	/*padding-left: 1.75vw;*/
+	margin-left: 5vw;
+	margin-top: -25vw;
+	float: left;
+	box-shadow: 1px 1px 5px #000000;
+	text-shadow: 2px 2px 5px #000000;
+	background-color: #FF9430;
+	opacity: 0.75;
+	display: block;
+	text-align: center;
+	font-size: 1.30vw;
+}
+
+#monMemento:hover
+{
+	background-color: #FF9430;
+	opacity: 1;
+	box-shadow: 1px 1px 15px;
+}
+
+#monMemento:active
+{
+	box-shadow: 1px 1px 5px #000000 inset;
+}
+
+#maBAO
+{
+	height: 10vw;
+	width: 40%;
+	padding-top: 4vw;
+	/*padding-left: 15.5vw;*/
+	margin-left: 20vw;
+	margin-top: 5vw;
+	float: left;
+	box-shadow: 1px 1px 5px #000000;
+	text-shadow: 2px 2px 5px #000000;
+	background-color: #FF9430;
+	opacity: 0.75;
+	display: block;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+#maBAO:hover
+{
+	background-color: #FF9430;
+	opacity: 1;
+	box-shadow: 1px 1px 15px;
+}
+
+#maBAO:active
+{
+	box-shadow: 1px 1px 5px #000000 inset;
+}
+
+#meContacter
+{
+	height: 10vw;
+	width: 10%;
+	padding-top: 3.75vw;
+	/*padding-left: 2vw;*/
+	margin-left: 5vw;
+	margin-top: 5vw;
+	float: left;
+	box-shadow: 1px 1px 5px #000000;
+	text-shadow: 2px 2px 5px #000000;
+	background-color: #FF9430;
+	opacity: 0.75;
+	display: block;
+	text-align: center;
+	font-size: 1.45vw;
+}
+
+#meContacter:hover
+{
+	background-color: #FF9430;
+	opacity: 1;
+	box-shadow: 1px 1px 15px;
+}
+
+#meContacter:active
+{
+	box-shadow: 1px 1px 5px #000000 inset;
+}
+
+#gmail
+{
+	width: 175px;
+	height: 125px;
+	margin-top: 5vw;
+	margin-left: 1vw;
+}
+
+.mail
+{
+	margin-left: 11vw;
+	margin-top: -4vw;
+}
+
+#linkedin
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 2vw;
+	margin-left: 0.40vw;
+}
+
+.linkedin
+{
+	margin-left: 11vw;
+	margin-top: -5.5vw;
+}
+
+.verticale
+{
+	clear: both;
+	position: absolute;
+	margin-top : -15vw;
+	margin-left: 50vw;
+	height: 32.5vw;
+	width : 0.25vw;
+	background: #FFFFFF;
+}
+
+.cv
+{
+	width: 26vw;
+	height: 36.5vw;
+	margin-left: 60vw;
+	margin-top: -17vw;
+}
+
+.fleche
+{
+	color: #FFFFFF;
+	font-size: 2.5vw;
+	margin-left: 1vw;
+}
+
+.fleche:visited
+{
+	color: #FFFFFF;
+}
+
+.fleche:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.fadeVB
+{
+	width: 31vw;
+	height: 15.5vw;
+	margin-top: 10vw;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 2vw;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px #000000
+}
+
+.nom
+{
+	color: #000000;
+	margin-top: -12.5vw;
+	margin-left: 49vw;
+}
+
+.prenom
+{
+	color: #000000;
+	margin-left: 49vw;
+	padding-top: 1vw;
+}
+
+.sexe
+{
+	color: #000000;
+	margin-left: 49vw;
+	padding-top: 1vw;
+}
+
+.naissance
+{
+	color: #000000;
+	margin-top: -2.1vw;
+	margin-left: 56vw;
+}
+
+.pdp
+{
+	width: 12vw;
+	height: 11vw;
+	border-radius: 10vw;
+	overflow: hidden;
+	margin-left: 35.5vw;
+	margin-top: -16vw;
+}
+
+.pdp:hover
+{
+	box-shadow: 0px 0px 10px #000000;
+}
+
+.maCarteID
+{
+	color: #000000;
+	margin-top: -11.5vw;
+	font-size: 1vw;
+	text-align: center;
+	font-weight: bold;
+}
+
+.clicPhoto
+{
+	color: #FFFFFF;
+	font-size: 1.25vw;
+	text-align: center;
+	margin-top: 15vw;
+}
+
+.debianIMG
+{
+	width: 206px;
+	height: 202px;
+	margin-top: 10vw;
+	margin-left: 11vw;
+	position: absolute;
+}
+
+.debianIMG:hover
+{
+	width: 226px;
+	height: 217px;
+}
+
+.pdfDebian
+{
+	margin-left: 20vw;
+}
+
+.pdfVB
+{
+	margin-left: 2vw;
+}
+
+.sshIMG
+{
+	width: 224px;
+	height: 194.5px;
+	margin-top: 10vw;
+	margin-left: 33vw;
+	position: absolute;
+}
+
+.sshIMG:hover
+{
+	width: 250px;
+	height: 215px;
+}
+
+.pdfSSH
+{
+	margin-left: 20vw;
+}
+
+.pdfSW
+{
+	margin-left: 2vw;
+}
+
+.programmes
+{
+	width: 140px;
+	height: 140px;
+	margin-left: 35vw;
+	margin-top: 7vw;
+	position: absolute;
+}
+
+.programmes:hover
+{
+	width: 160px;
+	height: 160px;
+}
+
+.gthb
+{
+	margin-left: 45vw;
+	margin-top: -11vw;
+}
+
+#gh
+{
+	width: 225px;
+	height: 225px;
+	margin-top: 15vw;
+	margin-left: 10vw;
+	position: absolute;
+}
+
+#gh:hover
+{
+	width: 245px;
+	height: 245px;
+}
+
+#cpp
+{
+	width: 153px;
+	height: 172px;
+	margin-left: 21vw;
+	margin-top: 23vw;
+	position: absolute;
+}
+
+#cpp:hover
+{
+	width: 173px;
+	height: 192px;
+}
+
+#qt
+{
+	width: 200px;
+	height: 146px;
+	margin-left: 41.5vw;
+	margin-top: 23.5vw;
+	position: absolute;
+}
+
+#qt:hover
+{
+	width: 220px;
+	height: 166px;
+}
+
+#php
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 65vw;
+	margin-top: 2vw;
+	position: absolute;
+}
+
+#php:hover
+{
+	width: 220px;
+	height: 220px;
+}
+
+#mysql
+{
+	width: 230px;
+	height: 230px;
+	margin-left: 66vw;
+	margin-top: 21.5vw;
+	position: absolute;
+}
+
+#mysql:hover
+{
+	width: 250px;
+	height: 250px;
+}
+
+#html
+{
+	width: 185px;
+	height: 185px;
+	margin-left: 20vw;
+	margin-top: 2vw;
+	position: absolute;
+}
+
+#html:hover
+{
+	width: 205px;
+	height: 205px;
+}
+
+#css
+{
+	width: 185px;
+	height: 185px;
+	margin-left: 42vw;
+	margin-top: 2vw;
+	position: absolute;
+}
+
+#css:hover
+{
+	width: 205px;
+	height: 205px;
+}
+
+.sudoIMG
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 10vw;
+	margin-left: 55vw;
+	position: absolute;
+}
+
+.sudoIMG:hover
+{
+	width: 220px;
+	height: 220px;
+}
+
+.pdfSudo
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.apache2IMG
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 10vw;
+	margin-left: 77vw;
+	position: absolute;
+}
+
+.apache2IMG:hover
+{
+	width: 220px;
+	height: 220px;
+}
+
+.pdfApache2
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.phpMyAdminIMG
+{
+	width: 250px;
+	height: 200px;
+	margin-top: 25vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+
+.phpMyAdminIMG:hover
+{
+	width: 270px;
+	height: 220px;
+}
+
+.pdfPHPMyAdmin
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.mysqlIMG
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 25vw;
+	margin-left: 45vw;
+	position: absolute;
+}
+
+.mysqlIMG:hover
+{
+	width: 220px;
+	height: 220px;
+}
+
+.pdfMySQL
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.diversIMG
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 25vw;
+	margin-left: 66.5vw;
+	position: absolute;
+}
+
+.diversIMG:hover
+{
+	width: 220px;
+	height: 220px;
+}
+
+.pdfCableRJ45
+{
+	margin-left: 20vw;
+}
+
+.pdfReseauBTS
+{
+	margin-left: 2vw;
+}
+
+#cppMem
+{
+	width: 185px;
+	height: 185px;
+	margin-left: 11vw;
+	margin-top: 23vw;
+	position: absolute;
+}
+
+#cppMem:hover
+{
+	width: 205px;
+	height: 205px;
+}
+
+#phpMem
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 65vw;
+	margin-top: 1vw;
+	position: absolute;
+}
+
+#phpMem:hover
+{
+	width: 270px;
+	height: 270px;
+}
+
+#stMem
+{
+	margin-top: -1vw;
+}
+
+#pythonMem
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 31.5vw;
+	margin-top: 22.5vw;
+	position: absolute;
+}
+
+#pythonMem:hover
+{
+	width: 220px;
+	height: 220px;
+}
+
+#mysqlMem
+{
+	width: 230px;
+	height: 230px;
+	margin-left: 54vw;
+	margin-top: 22vw;
+	position: absolute;
+}
+
+#mysqlMem:hover
+{
+	width: 250px;
+	height: 250px;
+}
+
+#stageMem
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 78vw;
+	margin-top: 22vw;
+	position: absolute;
+}
+
+#stageMem:hover
+{
+	width: 270px;
+	height: 270px;
+}
+
+.ligneH
+{
+	background: #FFFFFF;
+	width: 500px;
+	height: 5px;
+}
+
+.h2html
+{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.screen
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#form
+{
+
+}
+
+#onclick
+{
+	margin-top: 1vw;
+}
+
+.legende
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#formWeb
+{
+	width: 55vw;
+	height: 35vw;
+}
+
+#gaucheHtml
+{
+	margin-left: 15vw;
+}
+
+#droiteHtml
+{
+	margin-left: 2vw;
+}
+
+#gaucheCss
+{
+	margin-left: 35vw;
+}
+
+#droiteCss
+{
+	margin-left: 2vw;
+}
+
+#gaucheCpp
+{
+	margin-left: 22vw;
+}
+
+#droiteCpp
+{
+	margin-left: 2vw;
+}
